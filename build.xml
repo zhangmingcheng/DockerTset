@@ -3,7 +3,7 @@
 <project name="DockerDemo" default="warFile" basedir="/opt/DockerDemo">
     
     <!-- 定义属性，打成war包的名称。 -->
-    <property name="warFileName" value="Docker.war"></property>
+    <property name="warFileName" value="DockerDemo.war"></property>
     
     <!-- 定义路径，编译java文件时用到的jar包。 -->
     <path id="project.lib">
