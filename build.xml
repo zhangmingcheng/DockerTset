@@ -38,7 +38,8 @@
                 <exclude name="**/*.jar"/>
                 <exclude name="**/*.class"/>
             </fileset>
-            <!-- 将jar和class文件拷贝到war包的对应路径下。 -->   
+            <!-- 将jar和class文件拷贝到war包的对应路径下。 -->
+            <lib dir="${basedir}/WebRoot/WEB-INF/lib" />
             <classes dir="${basedir}/build" />
         </war>
     </target>
