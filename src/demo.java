@@ -2,6 +2,7 @@
 public class demo {
 	public static void main(String[] args) {
 	  String  aa="123";
+	  String ll="aa";
 	  String  gitUrl="";
 	  String  buildPeriodically="";
 	  String  pollSCM="";
